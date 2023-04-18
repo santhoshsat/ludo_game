@@ -1,5 +1,12 @@
+body{
+  background-color: #282c34;
+  color: white;
+}
+
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +42,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  text-align: center;
+  padding: 2rem 2rem ;
+  margin: 1rem;
+}
+.square{
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1rem 1rem;
 }
